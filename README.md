@@ -10,7 +10,7 @@ Don't worry about sapambots. Won't find these addresses.
   <pre>
 &lt;script type="text/javascript" src="https://raw.github.com/zsoltlengyelit/noSpamBot/master/jquery.noSpamBot.js"&gt;&lt;/script&gt; 
 </pre>
-Then somewhere in the page:
+Then somewhere in the BODY:
 <pre>
 &lt;span class="email" email="john{at}site{dot}com"&gt;&lt;/span&gt;
 </pre>
