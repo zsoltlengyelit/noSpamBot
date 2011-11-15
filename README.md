@@ -12,7 +12,7 @@ Don't worry about sapambots. Won't find these addresses.
 </pre>
 Then somewhere in the page, or another script file:
 <pre>
-<span class="email" email="john{at}site{dot}com"></span>
+&lt;span class="email" email="john{at}site{dot}com"&gt;&lt;/span&gt;
 </pre>
 <pre>
 $(function(){
