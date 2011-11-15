@@ -8,7 +8,7 @@ Don't worry about sapambots. Won't find these addresses.
 <p>
   The conventional use, add this tag to HEAD:
   <pre>
-<script type="text/javascript" src="https://raw.github.com/zsoltlengyelit/noSpamBot/master/jquery.noSpamBot.js"></script> 
+&lt;script type="text/javascript" src="https://raw.github.com/zsoltlengyelit/noSpamBot/master/jquery.noSpamBot.js"&gt;&lt;/script&gt; 
 </pre>
 Then somewhere in the page, or another script file:
 <pre>
