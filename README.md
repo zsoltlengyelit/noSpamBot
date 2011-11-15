@@ -4,7 +4,7 @@ This tiny jQuery plugin provides comfortable way to show e-mail addresses in pag
 Don't worry about sapambots. Won't find these addresses.
 </p>
 
-<h1>Use</h1>
+<h2>Use</h2>
 <p>
   The conventional use, add this tag to HEAD:
   <pre>
@@ -21,5 +21,5 @@ $(function(){
 });
 </pre>
 </p>
-<h1>Demo and other usecases</h1>
+<h2>Demo and other usecases</h2>
 <http://jsfiddle.net/pzv8g/42/embedded/result/>
