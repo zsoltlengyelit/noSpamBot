@@ -45,18 +45,11 @@
       
     var realEmail = email.replace(settings.dot, '.').replace(settings.at, '@');
 
-    $(this).text(email)
-        .hover(   // on mouseover the e-mail changes ...
-            function(){
-                $(this).text(realEmail);
-            }, // on mouseout back
-            function(){
-                $(this).text(email);
-            }
-        )
-        .click(function(){ // on click selects the address
-            $(this).selText();
-        });
+   (function($this){
+      $(document).ready(function(){
+        $($this).text(realEmail);
+      });
+    })(this);
         
   };
 })( jQuery );
